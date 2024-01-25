@@ -29,7 +29,6 @@ export default function Navbar() {
     setIsAuthenticated(false);
     navigate("/login").then();
   };
-  
 
   return (
     <Disclosure as="nav" className="bg-gray-800">
@@ -51,7 +50,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-start justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center text-white hover:text-blue-700 hover: cursor-pointer">
-                  iTasc
+                  <Link to="/">iTasc</Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
